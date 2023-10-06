@@ -1,26 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+	<meta name="generator" content="Hugo 0.101.0" />
 	<title> WebHome &lt; Main &lt; Wiki</title>
 		  
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <meta name="robots" content="noindex"> <link href="WebRss.html" type="application/rss+xml" title="RSS Feed" rel="alternate">
 	<link href="/favicon.ico" type="image/x-icon" rel="icon"> <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link href="WebHome.html" type="application/x-wiki" title="edit WebHome" rel="alternate">
 	<meta name="description" content="WebHome">
-	 <!--[if IE]></base><![endif]-->
+	 
 	
 	<style type="text/css" media="all"></style>
 <link href="/style/style.css" type="text/css" rel="stylesheet">
 <style type="text/css" media="all"></style>
-<!--[if IE]><style type="text/css" media="screen">
-pre {
-	overflow-x:auto;
-	padding-bottom:expression(this.scrollWidth > this.offsetWidth ? 16 : 0);
-}
-</style>
-<![endif]-->
 
 
-<link media="all" type="text/css" href="https://www.rockbox.org/realwiki/pub/System/SmiliesPlugin/smilies.css" class="head SMILIESPLUGIN" rel="stylesheet"><!--SMILIESPLUGIN-->
+
+<link media="all" type="text/css" href="https://www.rockbox.org/realwiki/pub/System/SmiliesPlugin/smilies.css" class="head SMILIESPLUGIN" rel="stylesheet">
 <style class="head EXTERNALLINKPLUGIN_CSS" type="text/css" media="all">
 .externalLink a:link,
 .externalLink a:visited,
@@ -30,12 +25,12 @@ pre {
 	background-position:right;
 	padding-right:18px;
 }
-</style><!--EXTERNALLINKPLUGIN_CSS-->
-<script class="script JQUERYPLUGIN" src="https://www.rockbox.org/realwiki/pub/System/JQueryPlugin/jquery-2.2.4.js"></script><!--JQUERYPLUGIN-->
-<script class="script JQUERYPLUGIN::OBSERVER" src="/realwiki/pub/System/JQueryPlugin/plugins/observer/observer.js?version=0.1"></script><!--JQUERYPLUGIN::OBSERVER-->
-<script class="script JQUERYPLUGIN::MIGRATE" src="/realwiki/pub/System/JQueryPlugin/plugins/migrate/jquery.migrate.js?version=3.4.0"></script><!--JQUERYPLUGIN::MIGRATE-->
-<script src="/realwiki/pub/System/JQueryPlugin/plugins/foswiki/jquery.foswiki.js?version=3.10" class="script JQUERYPLUGIN::FOSWIKI"></script><!--JQUERYPLUGIN::FOSWIKI-->
-<script src="/realwiki/pub/System/JQueryPlugin/plugins/browser/jquery.browser.js?version=0.1.0" class="script JQUERYPLUGIN::BROWSER"></script><!--JQUERYPLUGIN::BROWSER-->
+</style>
+<script class="script JQUERYPLUGIN" src="https://www.rockbox.org/realwiki/pub/System/JQueryPlugin/jquery-2.2.4.js"></script>
+<script class="script JQUERYPLUGIN::OBSERVER" src="/realwiki/pub/System/JQueryPlugin/plugins/observer/observer.js?version=0.1"></script>
+<script class="script JQUERYPLUGIN::MIGRATE" src="/realwiki/pub/System/JQueryPlugin/plugins/migrate/jquery.migrate.js?version=3.4.0"></script>
+<script src="/realwiki/pub/System/JQueryPlugin/plugins/foswiki/jquery.foswiki.js?version=3.10" class="script JQUERYPLUGIN::FOSWIKI"></script>
+<script src="/realwiki/pub/System/JQueryPlugin/plugins/browser/jquery.browser.js?version=0.1.0" class="script JQUERYPLUGIN::BROWSER"></script>
 <script class="script JQUERYPLUGIN::FOSWIKI::PREFERENCES foswikiPreferences" type="text/json">{
    "WIKIUSERNAME" : "Main.AdminUser",
    "PUBURLPATH" : "https://www.rockbox.org/realwiki/pub",
@@ -52,11 +47,11 @@ pre {
    "SCRIPTURL" : "https://www.rockbox.org/realwiki/bin",
    "SYSTEMWEB" : "System",
    "SCRIPTURLPATH" : "https://www.rockbox.org/realwiki/bin",
-   "NAMEFILTER" : "[\\s\\*?~^\\$@%`\"'&;|<>\\[\\]#\\x00-\\x1f]",
+   "NAMEFILTER" : "[\\s\\*?~^\\$@%`\"'&;|&lt;>\\[\\]#\\x00-\\x1f]",
    "USERSWEB" : "Main",
    "COOKIEREALM" : ""
 }
-</script><!--JQUERYPLUGIN::FOSWIKI::PREFERENCES-->
+</script>
 </head>
 <body class="foswikiJs"><div class="foswikiPage">
 <a name="PageTop"></a> 
@@ -121,21 +116,24 @@ Donate
 <td bgcolor="#6887bb" width="100%"><div class="foswikiMain">
 <div class="wikihead">
 	<form name="main" action="https://www.rockbox.org/realwiki/bin/view/Main/WebHome"> <span style="float:right"> <a href="WebSearch.html">Search</a> | Go  <input type="text" name="topic" size="10"> </span></form>
-	<a href="..">Wiki</a>
-		 &gt; <a href="..">Main</a>
+	<a href="../WebHome.html">Wiki</a>
+		 &gt; <a href="WebHome.html">Main</a>
 		 &gt; 
 		 <font size="+1"><b>WebHome</b>   </font>
  </div>
 </div></td></tr><tr><td valign="top" class="rightcontent"><div class="foswikiContentHeader"></div>
 <div class="foswikiTopicText">
-{{ .Content }}
+<h1 id="rockbox-wiki-hugo-proof-of-concept">Rockbox Wiki Hugo Proof of Concept</h1>
+<p>This is a proof of concept of the Rockbox Wiki site being generated from markdown files using Hugo.</p>
+<h1 id="automatically-generated-list-of-pages">Automatically Generated List of Pages:</h1>
+
 
 <ul>
-{{ range .Site.RegularPages }}
-<li><a href="{{.RelPermalink}}" target="_top">{{ .Title }}
+
+<li><a href="/devices/test/" target="_top">Test
 </a>
 </li>
-{{ end }}
+
 </ul>
 <a name="TopicEnd"></a>
 </div>

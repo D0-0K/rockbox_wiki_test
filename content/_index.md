@@ -8,5 +8,7 @@ description: ""
 
 This is a proof of concept of the Rockbox Wiki site being generated from markdown files using Hugo.
 
-# Automatically Generated List of Pages:
+[git repo of the files](https://github.com/D0-0K/rockbox_wiki_test)
+
+## Automatically Generated List of Pages:
 
